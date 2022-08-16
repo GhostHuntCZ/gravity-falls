@@ -27,6 +27,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.gravityfalls.init.GravityFallsModItems;
+import net.mcreator.gravityfalls.init.GravityFallsModFeatures;
 import net.mcreator.gravityfalls.init.GravityFallsModEntities;
 import net.mcreator.gravityfalls.init.GravityFallsModBlocks;
 import net.mcreator.gravityfalls.init.GravityFallsModBiomes;
@@ -50,6 +51,8 @@ public class GravityFallsMod {
 		GravityFallsModBlocks.REGISTRY.register(bus);
 		GravityFallsModItems.REGISTRY.register(bus);
 		GravityFallsModEntities.REGISTRY.register(bus);
+
+		GravityFallsModFeatures.REGISTRY.register(bus);
 
 		GravityFallsModBiomes.REGISTRY.register(bus);
 

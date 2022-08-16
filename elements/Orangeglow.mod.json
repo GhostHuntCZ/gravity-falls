@@ -77,7 +77,7 @@
     "treeFruits": {
       "value": ""
     },
-    "spawnStronghold": false,
+    "spawnStronghold": true,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,

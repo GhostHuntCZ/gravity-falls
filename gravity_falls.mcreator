@@ -101,6 +101,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "boy"
+    },
+    {
+      "name": "Vesmirnalod",
+      "type": "structure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vesmirnalod"
     }
   ],
   "variable_elements": [],
