@@ -109,6 +109,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "arrow_effects"
+    },
+    {
+      "name": "Vesmirnalod",
+      "type": "structure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vesmirnalod"
     }
   ],
   "variable_elements": [],
