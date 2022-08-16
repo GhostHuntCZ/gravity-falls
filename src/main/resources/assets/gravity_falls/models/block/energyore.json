@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "gravity_falls:blocks/energy_ore",
+    "up": "gravity_falls:blocks/energy_ore",
+    "north": "gravity_falls:blocks/energy_ore",
+    "east": "gravity_falls:blocks/energy_ore",
+    "south": "gravity_falls:blocks/energy_ore",
+    "west": "gravity_falls:blocks/energy_ore",
+    "particle": "gravity_falls:blocks/energy_ore"
+  }
+}

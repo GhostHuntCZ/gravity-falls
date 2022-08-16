@@ -1,0 +1,50 @@
+{
+  "mod_elements": [
+    {
+      "name": "Energystone",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energystone"
+    },
+    {
+      "name": "Energyore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energyore"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.gravity_falls.energystone": "Energystone",
+      "block.gravity_falls.energyore": "Energyore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "gravity_falls",
+    "modName": "Gravity falls",
+    "version": "1.0.0",
+    "author": "Creator, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.gravityfalls",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200233511
+}
