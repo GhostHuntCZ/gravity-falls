@@ -15,14 +15,112 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "energyore"
+    },
+    {
+      "name": "KL90ProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_90_projectile_hits_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KL90",
+      "type": "rangeditem",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_90"
+    },
+    {
+      "name": "NeprustrelnnavestaBodyTickEvent",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neprustrelnnavesta_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Neprustrelnnavesta",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neprustrelnnavesta",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Alien",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien"
+    },
+    {
+      "name": "Orangeglow",
+      "type": "biome",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "orangeglow"
+    },
+    {
+      "name": "Girl",
+      "type": "livingentity",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "girl"
+    },
+    {
+      "name": "Boy",
+      "type": "livingentity",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boy"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.gravity_falls.neprustrelnnavesta_chestplate": "Neprustrelnnavesta Body",
+      "item.gravity_falls.girl_spawn_egg": "Girl Spawn Egg",
+      "item.gravity_falls.neprustrelnnavesta_leggings": "Neprustrelnnavesta Leggings",
+      "entity.gravity_falls.girl": "Girl",
+      "biome.gravity_falls.orangeglow": "Orangeglow",
+      "item.gravity_falls.boy_spawn_egg": "Boy Spawn Egg",
+      "item.gravity_falls.kl_90": "KL90",
+      "item.gravity_falls.neprustrelnnavesta_boots": "Neprustrelnnavesta Boots",
+      "item.gravity_falls.alien_spawn_egg": "Alien Spawn Egg",
       "item.gravity_falls.energystone": "Energystone",
-      "block.gravity_falls.energyore": "Energyore"
+      "entity.gravity_falls.alien": "Alien",
+      "block.gravity_falls.energyore": "Energyore",
+      "item.gravity_falls.neprustrelnnavesta_helmet": "Neprustrelnnavesta Helmet",
+      "entity.gravity_falls.boy": "Boy"
     }
   },
   "foldersRoot": {
