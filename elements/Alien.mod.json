@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:KL90"
     },
     "equipmentOffHand": {
       "value": ""

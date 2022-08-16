@@ -101,6 +101,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "boy"
+    },
+    {
+      "name": "ArrowEffects",
+      "type": "function",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_effects"
     }
   ],
   "variable_elements": [],

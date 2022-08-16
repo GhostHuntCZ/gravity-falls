@@ -11,6 +11,7 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.ai.goal.target.HurtByTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -24,6 +25,7 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.Difficulty;
@@ -31,6 +33,7 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 
+import net.mcreator.gravityfalls.init.GravityFallsModItems;
 import net.mcreator.gravityfalls.init.GravityFallsModEntities;
 
 @Mod.EventBusSubscriber
@@ -48,6 +51,7 @@ public class AlienEntity extends Monster {
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(GravityFallsModItems.KL_90.get()));
 	}
 
 	@Override
