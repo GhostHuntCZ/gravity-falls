@@ -52,6 +52,7 @@ public class AlienEntity extends Monster {
 		xpReward = 0;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(GravityFallsModItems.KL_90.get()));
+		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(GravityFallsModItems.ENERGYSTONE.get()));
 	}
 
 	@Override
@@ -87,6 +88,15 @@ public class AlienEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
+	}
+
+	@Override
+	public boolean hurt(DamageSource source, float amount) {
+		if (source == DamageSource.WITHER)
+			return false;
+		if (source.getMsgId().equals("witherSkull"))
+			return false;
+		return super.hurt(source, amount);
 	}
 
 	public static void init() {

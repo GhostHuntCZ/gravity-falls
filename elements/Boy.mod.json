@@ -6,7 +6,7 @@
     "mobLabel": "",
     "mobModelName": "Biped",
     "mobModelTexture": "char_1.png",
-    "mobModelGlowTexture": "char_1.png",
+    "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,

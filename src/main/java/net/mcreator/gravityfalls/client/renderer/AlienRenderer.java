@@ -19,6 +19,6 @@ public class AlienRenderer extends HumanoidMobRenderer<AlienEntity, HumanoidMode
 
 	@Override
 	public ResourceLocation getTextureLocation(AlienEntity entity) {
-		return new ResourceLocation("gravity_falls:textures/entities/alien.png");
+		return new ResourceLocation("gravity_falls:textures/entities/char_3.png");
 	}
 }
