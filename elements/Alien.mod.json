@@ -5,7 +5,7 @@
     "mobName": "Alien",
     "mobLabel": "",
     "mobModelName": "Biped",
-    "mobModelTexture": "alien.png",
+    "mobModelTexture": "char_3.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
@@ -33,7 +33,7 @@
       "value": ""
     },
     "equipmentHelmet": {
-      "value": ""
+      "value": "CUSTOM:Energystone"
     },
     "equipmentBody": {
       "value": ""
@@ -42,7 +42,7 @@
       "value": ""
     },
     "equipmentBoots": {
-      "value": "CUSTOM:Energystone"
+      "value": ""
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
@@ -58,7 +58,7 @@
     "waterMob": false,
     "flyingMob": false,
     "guiBoundTo": "<NONE>",
-    "inventorySize": 9,
+    "inventorySize": 19,
     "inventoryStackSize": 64,
     "disableCollisions": false,
     "ridable": false,

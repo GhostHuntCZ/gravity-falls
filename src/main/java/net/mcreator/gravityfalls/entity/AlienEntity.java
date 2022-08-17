@@ -52,7 +52,7 @@ public class AlienEntity extends Monster {
 		xpReward = 0;
 		setNoAi(false);
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(GravityFallsModItems.KL_90.get()));
-		this.setItemSlot(EquipmentSlot.FEET, new ItemStack(GravityFallsModItems.ENERGYSTONE.get()));
+		this.setItemSlot(EquipmentSlot.HEAD, new ItemStack(GravityFallsModItems.ENERGYSTONE.get()));
 	}
 
 	@Override
