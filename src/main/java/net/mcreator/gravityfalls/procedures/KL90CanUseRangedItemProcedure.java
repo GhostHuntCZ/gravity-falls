@@ -1,10 +1,8 @@
 package net.mcreator.gravityfalls.procedures;
 
-import net.minecraft.world.entity.Entity;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.commands.CommandFunction;
+import net.minecraftforge.eventbus.api.Event;
 
-import java.util.Optional;
+import javax.annotation.Nullable;
 
 public class KL90CanUseRangedItemProcedure {
 	public static void execute(Entity entity) {

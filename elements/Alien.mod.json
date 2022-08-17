@@ -63,7 +63,7 @@
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
-    "canControlStrafe": false,
+    "canControlStrafe": true,
     "immuneToFire": false,
     "immuneToArrows": false,
     "immuneToFallDamage": false,
@@ -75,7 +75,7 @@
     "immuneToExplosion": false,
     "immuneToTrident": false,
     "immuneToAnvil": false,
-    "immuneToWither": false,
+    "immuneToWither": true,
     "immuneToDragonBreath": false,
     "mobDrop": {
       "value": ""
