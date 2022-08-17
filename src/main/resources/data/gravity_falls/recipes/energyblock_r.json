@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    },
+    {
+      "item": "gravity_falls:energystone"
+    }
+  ],
+  "result": {
+    "item": "gravity_falls:energyblock",
+    "count": 1
+  }
+}

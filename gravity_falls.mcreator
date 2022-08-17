@@ -147,6 +147,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "energyblock"
+    },
+    {
+      "name": "EnergyblockR",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energyblock_r"
     }
   ],
   "variable_elements": [],
