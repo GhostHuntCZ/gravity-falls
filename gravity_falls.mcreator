@@ -165,6 +165,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Energysstonerblock",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energysstonerblock"
     }
   ],
   "variable_elements": [],
