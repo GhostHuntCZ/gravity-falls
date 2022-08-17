@@ -33,7 +33,7 @@
       "value": ""
     },
     "equipmentHelmet": {
-      "value": "CUSTOM:Energystone"
+      "value": ""
     },
     "equipmentBody": {
       "value": ""
@@ -105,11 +105,11 @@
     "breedable": false,
     "tameable": false,
     "breedTriggerItems": [],
-    "ranged": false,
+    "ranged": true,
     "rangedAttackItem": {
       "value": ""
     },
-    "rangedItemType": "Default item",
+    "rangedItemType": "KL90",
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,

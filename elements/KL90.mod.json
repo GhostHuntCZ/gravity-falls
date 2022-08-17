@@ -17,7 +17,7 @@
     "shootConstantly": false,
     "usageCount": 100,
     "actionSound": {
-      "value": "entity.arrow.shoot"
+      "value": ""
     },
     "hasGlow": false,
     "animation": "bow",
@@ -27,7 +27,7 @@
     "bulletDamage": 5.0,
     "bulletKnockback": 0,
     "bulletParticles": false,
-    "bulletIgnitesFire": true,
+    "bulletIgnitesFire": false,
     "bulletItemTexture": {
       "value": "CUSTOM:Energystone"
     },
