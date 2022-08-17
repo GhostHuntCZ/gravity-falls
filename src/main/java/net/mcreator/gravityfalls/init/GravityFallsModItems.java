@@ -32,6 +32,7 @@ public class GravityFallsModItems {
 			() -> new ForgeSpawnEggItem(GravityFallsModEntities.GIRL, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> BOY = REGISTRY.register("boy_spawn_egg",
 			() -> new ForgeSpawnEggItem(GravityFallsModEntities.BOY, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> ENERGYBLOCK = block(GravityFallsModBlocks.ENERGYBLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -42,7 +42,7 @@
       "value": ""
     },
     "equipmentBoots": {
-      "value": ""
+      "value": "CUSTOM:Energystone"
     },
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",

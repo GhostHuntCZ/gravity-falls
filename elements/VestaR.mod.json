@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Energystone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Energystone"
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      },
+      {
+        "value": "Blocks.WOOL#15"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Neprustrelnnavesta.body"
+    },
+    "name": "vesta_r",
+    "namespace": "mod"
+  }
+}

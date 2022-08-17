@@ -2,12 +2,12 @@
   "_fv": 33,
   "_type": "block",
   "definition": {
-    "texture": "untitled",
-    "textureTop": "untitled",
-    "textureLeft": "untitled",
-    "textureFront": "untitled",
-    "textureRight": "untitled",
-    "textureBack": "untitled",
+    "texture": "energi_block",
+    "textureTop": "energi_block",
+    "textureLeft": "energi_block",
+    "textureFront": "energi_block",
+    "textureRight": "energi_block",
+    "textureBack": "energi_block",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Energyore",
+    "name": "Energyblock",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:Energystone"
+      "value": "CUSTOM:Energyblock"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,

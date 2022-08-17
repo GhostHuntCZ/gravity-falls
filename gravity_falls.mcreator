@@ -119,6 +119,38 @@
       "registry_name": "vesmirnalod"
     },
     {
+      "name": "VestaR",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vesta_r"
+    },
+    {
+      "name": "EnergyblockR",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energyblock_r"
+    },
+    {
+      "name": "Energyblock",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energyblock"
+    },
+    {
+      "name": "KL90R",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_90_r"
+    },
+    {
       "name": "KL90CanUseRangedItem",
       "type": "procedure",
       "sortid": 8,
@@ -151,6 +183,7 @@
       "item.gravity_falls.energystone": "Energystone",
       "entity.gravity_falls.alien": "Alien",
       "block.gravity_falls.energyore": "Energyore",
+      "block.gravity_falls.energyblock": "Energyblock",
       "item.gravity_falls.neprustrelnnavesta_helmet": "Neprustrelnnavesta Helmet",
       "entity.gravity_falls.boy": "Boy"
     }
