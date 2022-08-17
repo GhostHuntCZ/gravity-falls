@@ -57,7 +57,7 @@ public class KL90Item extends Item {
 					}
 				}
 				if (entity.getAbilities().instabuild || stack != ItemStack.EMPTY) {
-					KL90Entity entityarrow = KL90Entity.shoot(world, entity, world.getRandom(), 1.1f, 8, 5);
+					KL90Entity entityarrow = KL90Entity.shoot(world, entity, world.getRandom(), 1f, 0.5, 5);
 					itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 					if (entity.getAbilities().instabuild) {
 						entityarrow.pickup = AbstractArrow.Pickup.CREATIVE_ONLY;

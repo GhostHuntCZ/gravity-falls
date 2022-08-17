@@ -117,6 +117,38 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vesmirnalod"
+    },
+    {
+      "name": "KL90CanUseRangedItem",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_90_can_use_ranged_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "KL90R",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_90_r"
+    },
+    {
+      "name": "VestaR",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vesta_r"
     }
   ],
   "variable_elements": [],

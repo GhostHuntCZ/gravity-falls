@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "gravity_falls:energystone"
+    },
+    "2": {
+      "item": "gravity_falls:energystone"
+    },
+    "3": {
+      "item": "minecraft:black_wool"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "minecraft:black_wool"
+    },
+    "6": {
+      "item": "minecraft:black_wool"
+    },
+    "7": {
+      "item": "minecraft:black_wool"
+    },
+    "8": {
+      "item": "minecraft:black_wool"
+    }
+  },
+  "result": {
+    "item": "gravity_falls:neprustrelnnavesta_chestplate",
+    "count": 1
+  }
+}
