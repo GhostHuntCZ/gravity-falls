@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.gravityfalls.block.EnergyoreBlock;
+import net.mcreator.gravityfalls.block.EnergyblockBlock;
 import net.mcreator.gravityfalls.GravityFallsMod;
 
 public class GravityFallsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, GravityFallsMod.MODID);
 	public static final RegistryObject<Block> ENERGYORE = REGISTRY.register("energyore", () -> new EnergyoreBlock());
+	public static final RegistryObject<Block> ENERGYBLOCK = REGISTRY.register("energyblock", () -> new EnergyblockBlock());
 }
