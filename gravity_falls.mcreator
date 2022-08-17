@@ -24,12 +24,7 @@
       "locked_code": false,
       "registry_name": "kl_90_projectile_hits_player",
       "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
+        "dependencies": []
       }
     },
     {

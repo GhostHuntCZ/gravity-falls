@@ -67,7 +67,9 @@ public class KL90Entity extends AbstractArrow implements ItemSupplier {
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		KL90ProjectileHitsPlayerProcedure.execute(entity);
+		KL90ProjectileHitsPlayerProcedure.execute(
+
+		);
 	}
 
 	@Override
